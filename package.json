@@ -1,5 +1,5 @@
 {
-  "name": "logseq-deepl-translate",
+  "name": "logseq-plugin-deepl-translate",
   "version": "1.0.0",
   "description": "Translate block text using DeepL API.",
   "main": "dist/index.js",

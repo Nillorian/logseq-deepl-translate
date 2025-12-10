@@ -203,6 +203,8 @@ async function handleInlineTranslation(blockId: string): Promise<void> {
 async function main() {
   console.info(`#${pluginId}: MAIN`);
 
+  logseq.App.showMsg(`❤️  Message from Plugin : ${pluginId}`);
+
   // Initialize translation dialog lazily
   if (!translationDialog) {
     translationDialog = new TranslationDialog();

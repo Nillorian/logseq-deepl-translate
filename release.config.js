@@ -1,6 +1,6 @@
 module.exports = {
   branches: ["main"],
-  repositoryUrl: "https://github.com/Nillorian/logseq-deepl-translate",
+  repositoryUrl: "https://github.com/Nillorian/logseq-plugin-deepl-translate",
   plugins: [
     "@semantic-release/commit-analyzer",
     "@semantic-release/release-notes-generator",

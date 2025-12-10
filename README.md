@@ -94,7 +94,7 @@ Open plugin settings to customize:
 ## Project Structure
 
 ```
-logseq-deepl-translate/
+logseq-plugin-deepl-translate/
 ├── .github/
 │   └── workflows/
 │       └── release.yml          # Semantic-release CI/CD pipeline
