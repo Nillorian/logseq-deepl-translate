@@ -95,30 +95,52 @@ Open plugin settings to customize:
 
 ```
 logseq-deepl-translate/
+├── .github/
+│   └── workflows/
+│       └── release.yml          # Semantic-release CI/CD pipeline
 ├── src/
-│   ├── index.ts          # Main plugin entry point
+│   ├── index.ts                 # Main plugin entry point
 │   ├── api/
-│   │   └── deepl.ts      # DeepL API client
+│   │   └── deepl.ts             # DeepL API client
 │   ├── types/
-│   │   └── index.ts      # TypeScript interfaces
+│   │   └── index.ts             # TypeScript interfaces
 │   └── ui/
-│       └── dialog.ts     # Translation dialog UI
+│       └── dialog.ts            # Translation dialog UI
 ├── dist/
-│   └── index.js          # Compiled plugin bundle
-├── index.html            # Plugin entry point
-├── package.json          # Dependencies & metadata
-├── tsconfig.json         # TypeScript config
-├── logo.png              # Plugin icon
-├── README.md             # This file
-└── REQUIREMENTS.md       # Development requirements
+│   └── index.js                 # Compiled plugin bundle
+├── .eslintignore                # Git ignore rules
+├── index.html                   # Plugin HTML entry point
+├── manifest.json                # Logseq marketplace manifest
+├── package.json                 # Dependencies & metadata
+├── package-lock.json            # Locked dependency versions
+├── release.config.js            # Semantic-release configuration
+├── tsconfig.json                # TypeScript compiler config
+├── logo.png                     # Plugin icon
+├── README.md                    # This file
+└── CHANGELOG.md                 # Auto-generated release notes
 ```
 
 ## Development
 
-### Build
+### Requirements
+- **Node.js:** 24 LTS or later
+- **npm:** 10.x or later
+
+### Setup
 ```bash
+# Install dependencies
+npm install
+
+# Build the plugin
 npm run build
+
+# Run semantic-release (creates releases and tags)
+npm run release
 ```
+
+### Scripts
+- `npm run build` - Compile TypeScript and bundle for browser
+- `npm run release` - Create a semantic-release (requires conventional commits and git push to `main`)
 
 ## Dependencies
 
