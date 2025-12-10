@@ -150,8 +150,9 @@ MIT
 
 ## Author
 
-Nillorian
-GitHub Copilot / Auto-Model 12/2025
+- GitHub Copilot / Auto-Model 12/2025
+- Nillorian
+
 
 ## Support
 
