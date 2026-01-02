@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/Nillorian/logseq-plugin-deepl-translate/compare/v1.2.3...v1.2.4) (2026-01-02)
+
+
+### Bug Fixes
+
+* move index html to dist ([501ac5b](https://github.com/Nillorian/logseq-plugin-deepl-translate/commit/501ac5b3e0f33975eb97671aa6d1fd59d4700786))
+
 ## [1.2.3](https://github.com/Nillorian/logseq-plugin-deepl-translate/compare/v1.2.2...v1.2.3) (2026-01-02)
 
 
