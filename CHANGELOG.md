@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/Nillorian/logseq-plugin-deepl-translate/compare/v1.2.2...v1.2.3) (2026-01-02)
+
+
+### Bug Fixes
+
+* reference html as main in package.json ([717d6be](https://github.com/Nillorian/logseq-plugin-deepl-translate/commit/717d6bee8d3a18b221366835cc37a9ac0facfbd7))
+
 ## [1.2.2](https://github.com/Nillorian/logseq-plugin-deepl-translate/compare/v1.2.1...v1.2.2) (2026-01-02)
 
 
