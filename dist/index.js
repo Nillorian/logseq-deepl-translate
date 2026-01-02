@@ -2722,7 +2722,7 @@
 
   // package.json
   var logseq2 = {
-    id: "_deepl_translator_plugin",
+    id: "logseq-plugin-deepl-translate",
     title: "DeepL Translator",
     icon: "logo.png"
   };
@@ -3282,11 +3282,10 @@ ${failedErrors.join("\n")}`
   }
   async function main() {
     console.info(`#${pluginId}: MAIN`);
-    logseq.App.showMsg(`\u2764\uFE0F  Message from Plugin : ${pluginId}`);
+    logseq.UI.showMsg(`\u2764\uFE0F Message from : ${pluginId}`);
     if (!translationDialog) {
       translationDialog = new TranslationDialog();
     }
-    logseq.useSettingsSchema(settingsSchema);
     if (!menuRegistered) {
       logseq.Editor.registerBlockContextMenuItem(
         "\u{1F310} Translate",
@@ -3316,6 +3315,7 @@ ${failedErrors.join("\n")}`
     }
     console.info(`#${pluginId}: Loaded successfully`);
   }
+  logseq.useSettingsSchema(settingsSchema);
   logseq.ready(main).catch(console.error);
 })();
 /*! Bundled license information:

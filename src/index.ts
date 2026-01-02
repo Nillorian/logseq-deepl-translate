@@ -346,7 +346,7 @@ async function handleInlineTranslationWithSubBlocks(blockId: string): Promise<vo
 async function main() {
   console.info(`#${pluginId}: MAIN`);
 
-  logseq.App.showMsg(`❤️ Message from : ${pluginId}`);
+  logseq.UI.showMsg(`❤️ Message from : ${pluginId}`);
 
   // Initialize translation dialog lazily
   if (!translationDialog) {
