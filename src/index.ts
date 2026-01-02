@@ -346,15 +346,12 @@ async function handleInlineTranslationWithSubBlocks(blockId: string): Promise<vo
 async function main() {
   console.info(`#${pluginId}: MAIN`);
 
-  logseq.App.showMsg(`❤️  Message from Plugin : ${pluginId}`);
+  logseq.App.showMsg(`❤️ Message from : ${pluginId}`);
 
   // Initialize translation dialog lazily
   if (!translationDialog) {
     translationDialog = new TranslationDialog();
   }
-
-  // Set plugin settings schema
-  logseq.useSettingsSchema(settingsSchema);
 
   // Register block context menu item only once
   if (!menuRegistered) {
@@ -402,6 +399,9 @@ async function main() {
 
   console.info(`#${pluginId}: Loaded successfully`);
 }
+
+// Set plugin settings schema
+logseq.useSettingsSchema(settingsSchema);
 
 // Bootstrap
 logseq.ready(main).catch(console.error);
