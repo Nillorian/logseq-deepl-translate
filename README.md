@@ -98,15 +98,13 @@ logseq-plugin-deepl-translate/
 │   └── workflows/
 │       └── release.yml          # Semantic-release CI/CD pipeline
 ├── src/
-│   ├── index.ts                 # Main plugin entry point
+│   ├── main.ts                 # Main plugin entry point
 │   ├── api/
 │   │   └── deepl.ts             # DeepL API client
 │   ├── types/
 │   │   └── index.ts             # TypeScript interfaces
 │   └── ui/
 │       └── dialog.ts            # Translation dialog UI
-├── dist/
-│   └── index.js                 # Compiled plugin bundle
 ├── .eslintignore                # Git ignore rules
 ├── index.html                   # Plugin HTML entry point
 ├── manifest.json                # Logseq marketplace manifest
