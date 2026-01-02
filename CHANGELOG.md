@@ -1,3 +1,10 @@
+## [1.2.6](https://github.com/Nillorian/logseq-plugin-deepl-translate/compare/v1.2.5...v1.2.6) (2026-01-02)
+
+
+### Bug Fixes
+
+* move the settings load back to main ([6be6b75](https://github.com/Nillorian/logseq-plugin-deepl-translate/commit/6be6b753e1806509cb8099363bca919043e32294))
+
 ## [1.2.5](https://github.com/Nillorian/logseq-plugin-deepl-translate/compare/v1.2.4...v1.2.5) (2026-01-02)
 
 
