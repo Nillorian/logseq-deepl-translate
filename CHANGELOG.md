@@ -1,3 +1,10 @@
+## [1.2.5](https://github.com/Nillorian/logseq-plugin-deepl-translate/compare/v1.2.4...v1.2.5) (2026-01-02)
+
+
+### Bug Fixes
+
+* revert index.html reference in package json ([befef15](https://github.com/Nillorian/logseq-plugin-deepl-translate/commit/befef1500875b94951a3944448ef9e60fd75e7b6))
+
 ## [1.2.4](https://github.com/Nillorian/logseq-plugin-deepl-translate/compare/v1.2.3...v1.2.4) (2026-01-02)
 
 
