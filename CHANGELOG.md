@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/Nillorian/logseq-plugin-deepl-translate/compare/v1.2.6...v1.2.7) (2026-01-02)
+
+
+### Bug Fixes
+
+* read entry point index html to release ([3f0fe9b](https://github.com/Nillorian/logseq-plugin-deepl-translate/commit/3f0fe9b1ddd06ac57902819a3c3317287f806d6d)), closes [#write_dotdir_file](https://github.com/Nillorian/logseq-plugin-deepl-translate/issues/write_dotdir_file)
+
 ## [1.2.6](https://github.com/Nillorian/logseq-plugin-deepl-translate/compare/v1.2.5...v1.2.6) (2026-01-02)
 
 
